@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>940</width>
+    <height>476</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="labelCamera">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>431</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtTenNguoiMoi">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>60</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>30</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Nhập tên của bạn:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnChupAnh">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>170</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Chụp ảnh</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDongY">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>220</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Đồng ý</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnChupLai">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>220</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Chụp lại</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>100</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Yêu cầu chụp: 8 ảnh </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTookPhoto">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>130</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Đang tải...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnReset">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>300</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>440</y>
+     <width>311</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Hướng dẫn: Đảm bảo đủ sáng, không che mặt.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnHoanTat">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>370</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hoàn tất</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnQuayLai">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>300</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quay lại</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
